@@ -1,0 +1,104 @@
+
+.bg-gray{
+background-color: #3E5151;
+}
+.text-gray{
+    color: #3E5151;
+}
+.bg-button{
+background-color:rgb(249, 188, 73);
+}
+.font-title{
+font-family: 'Times New Roman', Times, serif;
+}
+.font-body{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.card{
+
+box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform
+cubic-bezier(.155,1.105,.295,1.12);
+
+cursor: pointer;
+}
+
+.card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+border:1px solid orange;
+}
+.form-container{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    
+}
+.form-container button{
+    width: 100%;
+}
+/* .products-info-section .carousel{
+height: 25% !important;
+} */
+@media screen and (min-width:915px) {
+.basic-nav{
+display: block;
+}
+.hamburger {
+display: none;
+}
+}
+@media screen and (min-width:412px) and (max-width: 914px) {
+.basic-nav{
+display:none;
+}
+.hamburger {
+display: block;
+}
+.features-section .row{
+
+display: flex;
+flex-direction: column;
+}
+.products-card{
+   flex-direction:column !important;
+}
+.products-card .card{
+    margin: 0 auto !important;
+    margin-bottom: 25px !important;
+}
+/* .form-container{
+    width: 250px !important;
+    margin-left:0 !important ;
+margin-right: 0 !important;
+margin-top: 49px !important;
+} 
+.form-container form{
+   padding: 5px !important;
+   margin: 10px auto !important;
+  
+
+} */
+
+.login-section .col{
+    margin: 0 !important;
+    width:50% !important;  
+}
+.login-section .col .form-container{
+
+    margin: 50px 0 !important;
+    width:200px !important;
+    height: 400px !important;
+    padding: 3px !important;
+}
+.login-section .col form{
+    width: 100% !important;
+}
+/* .login-section .col form > input ,label ,button{
+    width: 50% !important;
+ 
+} */
+}
